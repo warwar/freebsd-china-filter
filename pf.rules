@@ -1,0 +1,2 @@
+table <blog_spammers> persist file "/etc/ckf_rules/china_and_korea.cidr"
+block in on $ext_if from <blog_spammers> to any
